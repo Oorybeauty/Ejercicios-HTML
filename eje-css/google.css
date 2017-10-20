@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+
+html, body {
+ 	width: 100%;
+ 	height: 100%;
+}
+@media screen and (min-width: 500px){
+    body{
+    	background-color: pink; 	
+    }
+ 
+a {
+	text-decoration: none;
+	margin: 0.5rem;
+}
+
+a{
+	color: black;
+	text-decoration: underline;
+}
+@media screen and (min-width: 200px){
+    a {
+	    color: red;
+}
+
+form {
+	margin: 2rem;
+}
+
+footer {
+	background-color: #f2f2f2;
+	padding: 0.8rem 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+footer div {
+	display: inline-block;
+	width: 50%;
+	border: 0;
+	text-decoration: underline;
+	text-decoration: none;
+
+}
+/*
+footer div:nth-child(2) {
+	text-align: right;
+}
+*/
+header {
+	padding: 1.5rem;
+    text-align: right;
+}
+@media screen and (min-width: 50px){
+    li {
+	    display: inline-block;
+	    position: left;
+}
+
+main {
+	padding: 2rem;
+	text-align: center;
+	
+
+}
+@media screen and (min-width: 200px){
+   main{
+   	padding: 2rem;
+	text-align: center;
+   	
+   }
+   
+   img{
+	    width: 4 00px
+	    
+	  
+}
+
+
+}
+
+.right {
+	text-align: right;
+ }
+
+#logo {
+ 	display: block;
+ 	margin: auto;
+
+ }
+ input[name="caja-busqueda"]{
+	display: block;
+	margin: 0.5rem auto 2rem;
+	
+     }
+ @media screen and (min-width: 400px) and (max-width: 700px) {
+			body {
+				background-color: blueviolet;
+			}
+
+			input [name="Buscar-Goolge" value="Buscar en Google"]{
+                border-color: blueviolet;
+				width: 80%
+				height: 8rem;
+			}
+				
+			
